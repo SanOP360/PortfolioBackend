@@ -6,10 +6,5 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "/" }],
-  "install": {
-    "include": ["package.json", "package-lock.json"],
-    "npmClient": "npm",
-    "args": ["install", "--production"]
-  }
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
 }
